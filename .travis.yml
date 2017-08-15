@@ -5,8 +5,5 @@ rvm:
 
 os: linux
 
-before_install:
-    gem install bundler
-    bundle install
 script:
     bundle exec rake test.rb
