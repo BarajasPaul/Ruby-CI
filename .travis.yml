@@ -9,4 +9,4 @@ before_install:
     gem install bundler
     bundle install
 script:
-    ruby test.rb
+    bundle exec rake test.rb
