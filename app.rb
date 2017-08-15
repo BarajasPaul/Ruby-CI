@@ -6,7 +6,7 @@ class HelloWorld < Sinatra::Base
   end
 
   get '/:name' do 
-    "Hello. #{params[:name]}"
+    "Hello, #{params[:name]}!"
   end
 end
 
