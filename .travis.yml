@@ -6,4 +6,4 @@ rvm:
 os: linux
 
 script:
-    bundle exec rake test.rb
+    bundle exec rake
