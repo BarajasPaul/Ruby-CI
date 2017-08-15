@@ -1,7 +1,12 @@
 language: ruby
+
 rvm:
     2.4.1
 
 os: linux
+
+before_install:
+    gem install bundler
+    bundle install
 script:
     ruby test.rb
