@@ -7,6 +7,5 @@ os: linux
 
 before_install:
     gem install bundler
-    rackup -o 0.0.0.0
 script:
     rake
