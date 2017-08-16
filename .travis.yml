@@ -6,6 +6,8 @@ rvm:
 os: linux
 
 before_install:
-    gem install bundler
+    - gem install bundler
+    - bundle install
+    - rackup -o 0.0.0.0
 script:
     rake
